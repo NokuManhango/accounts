@@ -1,0 +1,15 @@
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\entity\Accounts.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\dto\ResponseDto.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\service\IAccountsService.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\mapper\AccountsMapper.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\entity\BaseEntity.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\service\impl\AccountsServiceImpl.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\controller\AccountController.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\dto\AccountsDto.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\AccountsApplication.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\repository\AccountsRepository.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\dto\ErrorResponseDto.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\entity\Customer.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\dto\CustomerDto.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\constants\AccountsConstants.java
+C:\LectureNotes\23_24\Microservices\Labs\Section#2\accounts\src\main\java\com\tus\accounts\repository\CustomerRepository.java
