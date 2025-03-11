@@ -1,0 +1,21 @@
+pipeline {
+    agent any  // This means the pipeline can run on any available Jenkins agent
+    stages {   // All the steps that need to be executed are grouped in stages
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/NokuManhango/accounts.git'  // Checkout the Git repository
+            }
+        }
+        stage('SonarQube Analysis') {
+            steps {
+                withSonarQubeEnv('SonarQube') {  // Use the SonarQube environment configuration defined in Jenkins
+                    sh 'sonar-scanner -Dsonar.projectKey=accounts -Dsonar.sources=src -Dsonar.host.url=http://localhost:9000'
+                    // Run the SonarQube scan with the necessary parameters:
+                    // -Dsonar.projectKey: unique identifier for your SonarQube project
+                    // -Dsonar.sources: source directory of your project
+                    // -Dsonar.host.url: the SonarQube server URL
+                }
+            }
+        }
+    }
+}
